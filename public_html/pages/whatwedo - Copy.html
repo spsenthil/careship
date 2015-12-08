@@ -1,0 +1,39 @@
+
+<!--contant start here-->
+
+<!--contant banner start here-->
+
+	<div class="container">
+
+		<div class="contant-banner-main">
+
+			<h3>WHAT WE DO..?</h3>
+
+			<P>Introduction to the Programs / Services... </P>
+
+		</div>
+
+	</div>
+
+<div id="exTab3" class="container" style="padding-top:35px !important;">	
+<ul  class="nav nav-pills">
+			<li ng-class="{active: ('whatwedo.tulsi' | routeSegmentStartsWith)}">
+                <a  href="#{{ 'whatwedo.tulsi' | routeSegmentUrl }}" >Health - Tulsi</a>
+			</li>
+            <li ng-class="{active: ('whatwedo.vidya' | routeSegmentStartsWith)}">
+			    <a  href="#{{ 'whatwedo.vidya' | routeSegmentUrl }}" >Education - Vidya</a>
+			</li>
+            <li ng-class="{active: ('whatwedo.jivanadhara' | routeSegmentStartsWith)}">
+			    <a  href="#{{ 'whatwedo.jivanadhara' | routeSegmentUrl }}" >Livelihood - Jivanadhara</a>
+			</li>
+  		    <li ng-class="{active: ('whatwedo.zindagi' | routeSegmentStartsWith)}">
+              <a  href="#{{ 'whatwedo.zindagi' | routeSegmentUrl }}" >Relief - Zindagi</a>
+			</li>
+            <li ng-class="{active: ('whatwedo.saathi' | routeSegmentStartsWith)}">
+              <a  href="#{{ 'whatwedo.saathi' | routeSegmentUrl }}" >Partnership - Saathi</a>
+			</li>
+		</ul>
+
+       <div style="margin-top: -7px;border-top: 8px solid #337AB7 !important;" class="tab-pane active tab-content span9 anim" app-view-segment="1"></div>
+		
+  </div>

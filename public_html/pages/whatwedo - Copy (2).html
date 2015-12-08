@@ -1,0 +1,39 @@
+
+<!--contant start here-->
+
+<!--contant banner start here-->
+
+	<div class="container">
+
+		<div class="contant-banner-main">
+
+			<h3>WHAT WE DO..?</h3>
+
+			<P>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </P>
+
+		</div>
+
+	</div>
+
+<div id="exTab3" class="container" style="padding-top:5px !important;">	
+<ul  class="nav nav-pills">
+			<li ng-class="{active: ('whatwedo.tulsi' | routeSegmentStartsWith)}">
+                <a  href="#{{ 'whatwedo.tulsi' | routeSegmentUrl }}" >Tulsi</a>
+			</li>
+            <li ng-class="{active: ('whatwedo.vidya' | routeSegmentStartsWith)}">
+			    <a  href="#{{ 'whatwedo.vidya' | routeSegmentUrl }}" >Vidya</a>
+			</li>
+            <li ng-class="{active: ('whatwedo.jivanadhara' | routeSegmentStartsWith)}">
+			    <a  href="#{{ 'whatwedo.jivanadhara' | routeSegmentUrl }}" >Jivanadhara</a>
+			</li>
+  		    <li ng-class="{active: ('whatwedo.zindagi' | routeSegmentStartsWith)}">
+              <a  href="#{{ 'whatwedo.zindagi' | routeSegmentUrl }}" >Zindagi</a>
+			</li>
+            <li ng-class="{active: ('whatwedo.saathi' | routeSegmentStartsWith)}">
+              <a  href="#{{ 'whatwedo.saathi' | routeSegmentUrl }}" >Saathi</a>
+			</li>
+		</ul>
+
+       <div style="margin-top: -7px;border-top: 8px solid #337AB7 !important;" class="tab-pane active tab-content span9 anim" app-view-segment="1"></div>
+		
+  </div>
