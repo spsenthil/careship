@@ -1,9 +1,11 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="en" ng-app="app">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>Care India Trust</title>
+    <title>Careship</title>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" /> 
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/app.css">
 
@@ -57,10 +59,10 @@
 
                 <div class="header-left" style="height:38px;">
 
-                    <a href="#{{'home' | routeSegmentUrl}}" style="font-size:20px;text-decoration:none;">
+                    <a href="#{{'home' | routeSegmentUrl}}" style="" class="careship-logo-title">
                         <img src="images/logo-care.png"  align="absmiddle" style="height:77px;"> Careship
                     </a>
-                    <br/><span class="logo-tagline">Hellow World</span>
+                    <br/><span class="logo-tagline">Connecting for a Change</span>
 
                 </div>
 
@@ -76,34 +78,37 @@
                         <li><a href="#{{'home' | routeSegmentUrl}}">Home</a></li>
 
                         <li class="dropdown">
-                            <a  class="dropdown-toggle" data-toggle="dropdown" role="button"  href="#{{'aboutus' | routeSegmentUrl}}" aria-expanded="false">About Us<span class="caret"></span></a>
-                            <ul class="dropdown-menu" role="menu">
+                            <!-- class="dropdown-toggle" data-toggle="dropdown" role="button"--> <!-- <span class="caret"></span>-->
+                            <a    href="#{{'aboutus' | routeSegmentUrl}}" aria-expanded="false">About Us</a>
+                            <!--<ul class="dropdown-menu" role="menu">
                               <li><a href="#{{'advisoryboard' | routeSegmentUrl}}">Advisory Board</a></li>
-                              <!--<li><a href="#">Core Values</a></li>
+                              <li><a href="#">Core Values</a></li>
                               <li><a href="#">Vision</a></li>
                               <li><a href="#">Mission</a></li>
                               <li><a href="#">Core Values</a></li>
-                              <li><a href="#">Our Objectives</a></li>-->
-                            </ul>
+                              <li><a href="#">Our Objectives</a></li>
+                            </ul>-->
                           </li>
 
                         <li class="dropdown">
-                            <a  class="dropdown-toggle" data-toggle="dropdown" role="button"  href="#{{'whatwedo' | routeSegmentUrl}}" aria-expanded="false">What we do<span class="caret"></span></a>
-                            <ul class="dropdown-menu" role="menu">
+                            <!-- class="dropdown-toggle" data-toggle="dropdown" role="button" --> <!-- <span class="caret"></span> -->
+                            <a   href="#{{'whatwedo' | routeSegmentUrl}}" aria-expanded="false">What we do</a>
+                            <!-- <ul class="dropdown-menu" role="menu">
                               <li><a href="#{{ 'whatwedo.tulsi' | routeSegmentUrl }}" > Health - Tulsi</a></li>
                               <li><a href="#{{ 'whatwedo.vidya' | routeSegmentUrl }}">Education - Vidya</a></li>
                               <li><a href="#{{ 'whatwedo.jivanadhara' | routeSegmentUrl }}" >Livelihood - Jivanadhara</a></li>
                               <li><a href="#{{ 'whatwedo.zindagi' | routeSegmentUrl }}">Relief - Zindagi</a></li>
                               <li><a href="#{{ 'whatwedo.saathi' | routeSegmentUrl }}">Partnership - Saathi</a></li>
-                            </ul>
+                            </ul> -->
                           </li>
 
-                        <li><a href="#{{'beneficiaries' | routeSegmentUrl}}">Beneficiaries</a></li>
-                         <li><a href="#{{'partners' | routeSegmentUrl}}">Our Partners</a></li>
+                        <li><a href="#{{'beneficiaries' | routeSegmentUrl}}">Testimonials</a></li>
+                         <!-- <li><a href="#{{'partners' | routeSegmentUrl}}">Our Partners</a></li>-->
+                        <li><a href="#{{'give' | routeSegmentUrl}}">News & Events</a></li>
 
                         <li><a href="#{{'getinvoled' | routeSegmentUrl}}">Get Involved</a></li>
 
-                        <li><a href="#{{'give' | routeSegmentUrl}}">Donate</a></li>
+                        
 
                         <li><a href="#{{'contact' | routeSegmentUrl}}">Contact</a></li>
 

@@ -3338,9 +3338,24 @@ ul.profile-detail > li > span{
 .pad-top-5px{
 	padding-top:5px;
 }
-.logo-tagline
+
+.careship-logo-title
 {
-	color:red;
-	font-family: 'Armata', sans-serif;
+    color:#0A6AE4 !important;
+    font-size:20px;
+    text-decoration:none;
+}
+
+.logo-tagline {
+    color: #EA0B85;
+    font-family: 'Armata', sans-serif;
+    margin-left: 55px;
+    margin-top: -26px;
+    position: absolute;
+    font-size: 13px;
 }
 	
+h4.project-title {
+    margin: 0px !important;
+    padding: 5px !important;
+}
