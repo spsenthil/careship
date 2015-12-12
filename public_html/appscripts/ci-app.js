@@ -79,8 +79,12 @@ app.controller('MainCtrl', function($scope, $routeSegment, loader) {
 
     $scope.$routeSegment = $routeSegment;
     $scope.loader = loader;
+	$scope.getSegmentName=function(name){
+		 	return name===$scope.$routeSegment.name?"active-menu":"non-active-menu";
+		 };
 
     $scope.$on('routeSegmentChange', function() {
         loader.show = false;
     })
+	 
 });

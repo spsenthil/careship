@@ -73,13 +73,13 @@
 
                 <div class="header-right">
 
-                    <ul class="res">
+                    <ul class="res app-menus">
 
-                        <li><a href="#{{'home' | routeSegmentUrl}}">Home</a></li>
+                        <li><a  class="{{getSegmentName('home')}} menu-link menu-link-home" href="#{{'home' | routeSegmentUrl}}">Home</a></li>
 
                         <li class="dropdown">
                             <!-- class="dropdown-toggle" data-toggle="dropdown" role="button"--> <!-- <span class="caret"></span>-->
-                            <a    href="#{{'aboutus' | routeSegmentUrl}}" aria-expanded="false">About Us</a>
+                            <a  class="{{getSegmentName('aboutus')}} menu-link menu-link-aboutus"  href="#{{'aboutus' | routeSegmentUrl}}" aria-expanded="false">About Us</a>
                             <!--<ul class="dropdown-menu" role="menu">
                               <li><a href="#{{'advisoryboard' | routeSegmentUrl}}">Advisory Board</a></li>
                               <li><a href="#">Core Values</a></li>
@@ -92,7 +92,7 @@
 
                         <li class="dropdown">
                             <!-- class="dropdown-toggle" data-toggle="dropdown" role="button" --> <!-- <span class="caret"></span> -->
-                            <a   href="#{{'whatwedo' | routeSegmentUrl}}" aria-expanded="false">What we do</a>
+                            <a  class="{{getSegmentName('whatwedo.tulsi')}} menu-link menu-link-whatwedo" href="#{{'whatwedo' | routeSegmentUrl}}" aria-expanded="false">What we do</a>
                             <!-- <ul class="dropdown-menu" role="menu">
                               <li><a href="#{{ 'whatwedo.tulsi' | routeSegmentUrl }}" > Health - Tulsi</a></li>
                               <li><a href="#{{ 'whatwedo.vidya' | routeSegmentUrl }}">Education - Vidya</a></li>
@@ -102,15 +102,15 @@
                             </ul> -->
                           </li>
 
-                        <li><a href="#{{'beneficiaries' | routeSegmentUrl}}">Testimonials</a></li>
+                        <li><a class="{{getSegmentName('beneficiaries')}} menu-link menu-link-beneficiaries" href="#{{'beneficiaries' | routeSegmentUrl}}">Testimonials</a></li>
                          <!-- <li><a href="#{{'partners' | routeSegmentUrl}}">Our Partners</a></li>-->
-                        <li><a href="#{{'give' | routeSegmentUrl}}">News & Events</a></li>
+                        <li><a  class="{{getSegmentName('give')}} menu-link menu-link-give" href="#{{'give' | routeSegmentUrl}}">News & Events</a></li>
 
-                        <li><a href="#{{'getinvoled' | routeSegmentUrl}}">Get Involved</a></li>
+                        <li><a class="{{getSegmentName('getinvoled')}} menu-link menu-link-getinvoled" href="#{{'getinvoled' | routeSegmentUrl}}">Get Involved</a></li>
 
                         
 
-                        <li><a href="#{{'contact' | routeSegmentUrl}}">Contact</a></li>
+                        <li><a class="{{getSegmentName('contact')}} menu-link menu-link-contact" href="#{{'contact' | routeSegmentUrl}}">Contact</a></li>
 
                     </ul>
 
